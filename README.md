@@ -46,9 +46,9 @@ Each `.java` file is self-contained and can be compiled and run independently.
 ### Run a file
 
 ```bash
-cd Java/Tutorials
-javac FileName.java
-java FileName
+cd Java/Tutorials/src
+javac -d ../bin HelloWorld.java
+java -cp ../bin HelloWorld
 ```
 
 ---
