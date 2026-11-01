@@ -1,0 +1,3 @@
+# Java compiler and IDE output
+*.class
+/Java/Tutorials/bin/
